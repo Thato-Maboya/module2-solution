@@ -40,12 +40,16 @@ body{
 
 .item-title{
   position: absolute;
+  text-align: center;
+  width: 30%;
   top:0;
   right: 0px;
-  background: green; 
-  padding: 6px 90px;
+  background: green;
+  padding: 5px 0;
   border-left: 2px solid #000;
   border-bottom: 2px solid #000;
+
+
 }
 
 #title-one {
@@ -54,6 +58,7 @@ body{
 
 #title-two{
   background-color: #C14543;
+  color: white;
 }
 
 #title-three{
@@ -116,6 +121,15 @@ body{
    width: 100%;
    float: left;
  }
+  #title-one{
+    width: 40%;
+  }
+  #title-two{
+    width: 40%;
+  }
+  #title-three{
+    width: 20%;
+  }
 }
 
 
